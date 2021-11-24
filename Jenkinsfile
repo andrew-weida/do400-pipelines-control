@@ -7,6 +7,7 @@ pipeline {
     stages {
         stage('Backend Tests') {
             steps {
+		echo 'Hello World'
                 sh 'node ./backend/test.js'
             }
         }
